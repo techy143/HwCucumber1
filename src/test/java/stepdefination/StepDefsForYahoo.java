@@ -14,6 +14,7 @@ public class StepDefsForYahoo {
     @When("I enter Email")
     public void i_enter_Email() {
         // Write code here that turns the phrase above into concrete actions
+        System.out.println("Entered email");
     }
 
     @When("I click on Next button")
@@ -45,5 +46,4 @@ public class StepDefsForYahoo {
     public void i_should_see_the_error_message() {
         // Write code here that turns the phrase above into concrete actions
     }
-
 }
